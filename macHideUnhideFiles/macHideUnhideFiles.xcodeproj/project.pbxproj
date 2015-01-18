@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7260E351A6BAA6200DFA597 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C7260E341A6BAA6200DFA597 /* AppDelegate.m */; };
+		C7260E371A6BAA6200DFA597 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C7260E361A6BAA6200DFA597 /* main.m */; };
+		C7260E391A6BAA6200DFA597 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7260E381A6BAA6200DFA597 /* Images.xcassets */; };
+		C7260E3C1A6BAA6200DFA597 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7260E3A1A6BAA6200DFA597 /* MainMenu.xib */; };
+		C7260E481A6BAA6200DFA597 /* macHideUnhideFilesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7260E471A6BAA6200DFA597 /* macHideUnhideFilesTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7260E421A6BAA6200DFA597 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7260E261A6BAA6100DFA597 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7260E2D1A6BAA6100DFA597;
+			remoteInfo = macHideUnhideFiles;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C7260E2E1A6BAA6200DFA597 /* macHideUnhideFiles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macHideUnhideFiles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7260E321A6BAA6200DFA597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7260E331A6BAA6200DFA597 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C7260E341A6BAA6200DFA597 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C7260E361A6BAA6200DFA597 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C7260E381A6BAA6200DFA597 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C7260E3B1A6BAA6200DFA597 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C7260E411A6BAA6200DFA597 /* macHideUnhideFilesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = macHideUnhideFilesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7260E461A6BAA6200DFA597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7260E471A6BAA6200DFA597 /* macHideUnhideFilesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = macHideUnhideFilesTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7260E2B1A6BAA6100DFA597 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7260E3E1A6BAA6200DFA597 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7260E251A6BAA6100DFA597 = {
+			isa = PBXGroup;
+			children = (
+				C7260E301A6BAA6200DFA597 /* macHideUnhideFiles */,
+				C7260E441A6BAA6200DFA597 /* macHideUnhideFilesTests */,
+				C7260E2F1A6BAA6200DFA597 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7260E2F1A6BAA6200DFA597 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7260E2E1A6BAA6200DFA597 /* macHideUnhideFiles.app */,
+				C7260E411A6BAA6200DFA597 /* macHideUnhideFilesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7260E301A6BAA6200DFA597 /* macHideUnhideFiles */ = {
+			isa = PBXGroup;
+			children = (
+				C7260E331A6BAA6200DFA597 /* AppDelegate.h */,
+				C7260E341A6BAA6200DFA597 /* AppDelegate.m */,
+				C7260E381A6BAA6200DFA597 /* Images.xcassets */,
+				C7260E3A1A6BAA6200DFA597 /* MainMenu.xib */,
+				C7260E311A6BAA6200DFA597 /* Supporting Files */,
+			);
+			path = macHideUnhideFiles;
+			sourceTree = "<group>";
+		};
+		C7260E311A6BAA6200DFA597 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7260E321A6BAA6200DFA597 /* Info.plist */,
+				C7260E361A6BAA6200DFA597 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C7260E441A6BAA6200DFA597 /* macHideUnhideFilesTests */ = {
+			isa = PBXGroup;
+			children = (
+				C7260E471A6BAA6200DFA597 /* macHideUnhideFilesTests.m */,
+				C7260E451A6BAA6200DFA597 /* Supporting Files */,
+			);
+			path = macHideUnhideFilesTests;
+			sourceTree = "<group>";
+		};
+		C7260E451A6BAA6200DFA597 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7260E461A6BAA6200DFA597 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7260E2D1A6BAA6100DFA597 /* macHideUnhideFiles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7260E4B1A6BAA6200DFA597 /* Build configuration list for PBXNativeTarget "macHideUnhideFiles" */;
+			buildPhases = (
+				C7260E2A1A6BAA6100DFA597 /* Sources */,
+				C7260E2B1A6BAA6100DFA597 /* Frameworks */,
+				C7260E2C1A6BAA6100DFA597 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = macHideUnhideFiles;
+			productName = macHideUnhideFiles;
+			productReference = C7260E2E1A6BAA6200DFA597 /* macHideUnhideFiles.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7260E401A6BAA6200DFA597 /* macHideUnhideFilesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7260E4E1A6BAA6200DFA597 /* Build configuration list for PBXNativeTarget "macHideUnhideFilesTests" */;
+			buildPhases = (
+				C7260E3D1A6BAA6200DFA597 /* Sources */,
+				C7260E3E1A6BAA6200DFA597 /* Frameworks */,
+				C7260E3F1A6BAA6200DFA597 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7260E431A6BAA6200DFA597 /* PBXTargetDependency */,
+			);
+			name = macHideUnhideFilesTests;
+			productName = macHideUnhideFilesTests;
+			productReference = C7260E411A6BAA6200DFA597 /* macHideUnhideFilesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7260E261A6BAA6100DFA597 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Gokul;
+				TargetAttributes = {
+					C7260E2D1A6BAA6100DFA597 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					C7260E401A6BAA6200DFA597 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = C7260E2D1A6BAA6100DFA597;
+					};
+				};
+			};
+			buildConfigurationList = C7260E291A6BAA6100DFA597 /* Build configuration list for PBXProject "macHideUnhideFiles" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7260E251A6BAA6100DFA597;
+			productRefGroup = C7260E2F1A6BAA6200DFA597 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7260E2D1A6BAA6100DFA597 /* macHideUnhideFiles */,
+				C7260E401A6BAA6200DFA597 /* macHideUnhideFilesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7260E2C1A6BAA6100DFA597 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7260E391A6BAA6200DFA597 /* Images.xcassets in Resources */,
+				C7260E3C1A6BAA6200DFA597 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7260E3F1A6BAA6200DFA597 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7260E2A1A6BAA6100DFA597 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7260E371A6BAA6200DFA597 /* main.m in Sources */,
+				C7260E351A6BAA6200DFA597 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7260E3D1A6BAA6200DFA597 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7260E481A6BAA6200DFA597 /* macHideUnhideFilesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7260E431A6BAA6200DFA597 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7260E2D1A6BAA6100DFA597 /* macHideUnhideFiles */;
+			targetProxy = C7260E421A6BAA6200DFA597 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C7260E3A1A6BAA6200DFA597 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7260E3B1A6BAA6200DFA597 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7260E491A6BAA6200DFA597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C7260E4A1A6BAA6200DFA597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C7260E4C1A6BAA6200DFA597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = macHideUnhideFiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C7260E4D1A6BAA6200DFA597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = macHideUnhideFiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C7260E4F1A6BAA6200DFA597 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = macHideUnhideFilesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/macHideUnhideFiles.app/Contents/MacOS/macHideUnhideFiles";
+			};
+			name = Debug;
+		};
+		C7260E501A6BAA6200DFA597 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = macHideUnhideFilesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/macHideUnhideFiles.app/Contents/MacOS/macHideUnhideFiles";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7260E291A6BAA6100DFA597 /* Build configuration list for PBXProject "macHideUnhideFiles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7260E491A6BAA6200DFA597 /* Debug */,
+				C7260E4A1A6BAA6200DFA597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7260E4B1A6BAA6200DFA597 /* Build configuration list for PBXNativeTarget "macHideUnhideFiles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7260E4C1A6BAA6200DFA597 /* Debug */,
+				C7260E4D1A6BAA6200DFA597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C7260E4E1A6BAA6200DFA597 /* Build configuration list for PBXNativeTarget "macHideUnhideFilesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7260E4F1A6BAA6200DFA597 /* Debug */,
+				C7260E501A6BAA6200DFA597 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7260E261A6BAA6100DFA597 /* Project object */;
+}
