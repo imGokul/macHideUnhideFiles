@@ -25,7 +25,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C7260E2E1A6BAA6200DFA597 /* macHideUnhideFiles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macHideUnhideFiles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7260E2E1A6BAA6200DFA597 /* Maṟaikka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Maṟaikka.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7260E321A6BAA6200DFA597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7260E331A6BAA6200DFA597 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C7260E341A6BAA6200DFA597 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -67,7 +67,7 @@
 		C7260E2F1A6BAA6200DFA597 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C7260E2E1A6BAA6200DFA597 /* macHideUnhideFiles.app */,
+				C7260E2E1A6BAA6200DFA597 /* Maṟaikka.app */,
 				C7260E411A6BAA6200DFA597 /* macHideUnhideFilesTests.xctest */,
 			);
 			name = Products;
@@ -128,7 +128,7 @@
 			);
 			name = macHideUnhideFiles;
 			productName = macHideUnhideFiles;
-			productReference = C7260E2E1A6BAA6200DFA597 /* macHideUnhideFiles.app */;
+			productReference = C7260E2E1A6BAA6200DFA597 /* Maṟaikka.app */;
 			productType = "com.apple.product-type.application";
 		};
 		C7260E401A6BAA6200DFA597 /* macHideUnhideFilesTests */ = {
@@ -155,7 +155,7 @@
 		C7260E261A6BAA6100DFA597 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Gokul;
 				TargetAttributes = {
 					C7260E2D1A6BAA6100DFA597 = {
@@ -258,15 +258,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -299,8 +303,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -309,6 +315,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -328,7 +335,8 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = macHideUnhideFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gokul.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "Maṟaikka";
 			};
 			name = Debug;
 		};
@@ -339,7 +347,8 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = macHideUnhideFiles/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gokul.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "Maṟaikka";
 			};
 			name = Release;
 		};
@@ -358,6 +367,7 @@
 				);
 				INFOPLIST_FILE = macHideUnhideFilesTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gokul.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/macHideUnhideFiles.app/Contents/MacOS/macHideUnhideFiles";
 			};
@@ -374,6 +384,7 @@
 				);
 				INFOPLIST_FILE = macHideUnhideFilesTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gokul.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/macHideUnhideFiles.app/Contents/MacOS/macHideUnhideFiles";
 			};
@@ -398,6 +409,7 @@
 				C7260E4D1A6BAA6200DFA597 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C7260E4E1A6BAA6200DFA597 /* Build configuration list for PBXNativeTarget "macHideUnhideFilesTests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +418,7 @@
 				C7260E501A6BAA6200DFA597 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

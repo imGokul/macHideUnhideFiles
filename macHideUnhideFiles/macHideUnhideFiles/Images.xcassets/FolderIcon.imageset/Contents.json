@@ -1,21 +1,21 @@
 {
   "images" : [
     {
-      "idiom" : "universal",
+      "idiom" : "mac",
+      "filename" : "folder.png",
       "scale" : "1x"
     },
     {
-      "idiom" : "universal",
+      "idiom" : "mac",
+      "filename" : "folder-2.png",
       "scale" : "2x"
-    },
-    {
-      "idiom" : "universal",
-      "scale" : "3x",
-      "filename" : "GenericFolderIcon.png"
     }
   ],
   "info" : {
     "version" : 1,
     "author" : "xcode"
+  },
+  "properties" : {
+    "template-rendering-intent" : "template"
   }
 }
